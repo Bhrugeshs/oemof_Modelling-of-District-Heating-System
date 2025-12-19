@@ -1,10 +1,10 @@
 # oemof_Modelling-of-District-Heating-System
 
-## Project Overview
+## About the Project:
 
 This project focuses on designing a cross-sectoral energy system to provide district heating in a city quarter in southern Germany. The system integrates multiple energy components, ensuring cost-efficiency, sustainability, and CO2 reduction. The key components of the system include:
 
-- Heat pump(s)
+- Heat pump
 - Ground-mounted large-scale solar energy systems (e.g., photovoltaic and/or solar thermal collectors)
 - Backup or peak load systems
 - Large-scale sensible thermal storage (seasonal storage)
@@ -22,14 +22,14 @@ The primary objective of this project is to:
 ## System Components
 
 - **Heat Pumps**: Can use ambient air or river water as a low-temperature heat source. The temperature profile is crucial to calculate the Coefficient of Performance (COP). Data was sourced from online resources.
-- **Solar Renewable Energy Systems**: Includes ground-mounted PV systems and solar thermal collectors, with hourly normalized production profiles generated via the *JRC PVGIS tool*.
+- **Solar Renewable Energy Systems**: Includes ground-mounted PV systems, with hourly normalized production profiles.
 - **Backup and Peak Load Systems**: Used to balance fluctuations in renewable energy generation.
-- **Thermal Storage**: A large-scale seasonal thermal storage system, with options for conventional TTES (high-temperature heat) or PTES (soil thermal storage for low-temperature heat that requires a heat pump to transform it).
+- **Thermal Storage**: A large-scale seasonal thermal storage system, with options for conventional TTES (high-temperature heat)
 - **Grid Connections**: Integration with public electricity and gas grids to support energy supply.
 
 ## Design Considerations
 
-- **Feasibility**: The components selected must be commercially available, with a technically feasible operation schedule (min/max up- and downtimes for critical components like heat pumps).
+- **Feasibility**: The components selected are commercially available, with a technically feasible operation schedule (min/max up- and downtimes for critical components like heat pumps is taken into consideration).
 - **Energy Tariffs**: Different prices for energy consumption, including electricity tariffs for private consumers and large-scale consumers like heat pumps.
 - **CO2 Emission Limit**: The share of heat derived from fossil fuels is capped at a maximum of 35%.
 
