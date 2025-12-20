@@ -2,7 +2,7 @@
 
 ## About the Project:
 
-This project focuses on designing a cross-sectoral energy system to provide district heating in a city quarter in southern Germany. The system integrates multiple energy components, ensuring cost-efficiency, sustainability, and CO2 reduction. The key components of the system include:
+This project focuses on designing a cross-sectoral energy system to provide district heating in a city quarter in southern Germany (Amberg, Bayern). The system integrates multiple energy components, ensuring cost-efficiency, sustainability, and CO2 reduction. The key components of the system include:
 
 - Heat pump
 - Ground-mounted large-scale solar energy systems (e.g., photovoltaic and/or solar thermal collectors)
